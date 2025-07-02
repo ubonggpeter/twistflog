@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coach Lillian- How I make money online, Make 300k weekly at home with phone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdfdfd;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #4d004d;
+      padding: 1em;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      width: 95%;
+      z-index: 1000;
+    }
+    .navbar h1 {
+      margin: 0;
+      font-size: 1.2em;
+    }
+    .menu-toggle {
+      cursor: pointer;
+      font-size: 1.2em;
+    }
+    .dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 1em;
+      background-color: #fff;
+      color: #4d004d;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .dropdown a {
+      display: block;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      color: #4d004d;
+    }
+    .dropdown a:hover {
+      background-color: #f0f0f0;
+    }
+    .container {
+      padding: 1em;
+    }
+    .hero-image {
+      width: 100%;
+      background-color: #dcdcdc;
+      text-align: center;
+      padding-top: 4em;
+    }
+    .product-title {
+      font-size: 1.5em;
+      margin-top: 0.5em;
+    }
+    .card {
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 1em;
+      margin-top: 2em;
+    }
+
+    .disclaimer {
+      color: #990000;
+      font-style: italic;
+    }
+
+    .highlight {
+      color: green;
+      font-weight: bold;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 0.3em;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 0.5em;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .submit-btn {
+      background-color: #4d004d;
+      color: white;
+      border: none;
+      padding: 0.7em 1.5em;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 4px;
+      align-items: center;
+    }
+    .submit-btn:hover {
+      background-color: #3a003a;
+    }
+
+    .forbtn {
+      text-align: center;
+    }
+    .review-section {
+      text-align: center;
+      margin-top: 2em;
+    }
+    .review-score {
+      font-size: 2em;
+    }
+    .stars {
+      color: gold;
+      font-size: 1.5em;
+    }
+    .chat-popup-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 1em;
+      min-height: 60px;
+    }
+    .chat-popup {
+      display: none;
+      align-items: center;
+      background: #e6e6e6;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 0 auto;
+      width: fit-content;
+      max-width: 90%;
+      transform: translateX(-100%);
+      animation: slideIn 0.5s forwards;
+    }
+    .chat-popup.slide-out {
+      animation: slideOut 0.5s forwards;
+    }
+    .chat-popup img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 0.8em;
+    }
+    /*.heroo-image {
+     text-align: center;
+     padding: 1em;
+     }
+
+    .heroo-image img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+     margin: 0 auto;
+    }*/
+    /*Footer popup*/
+    .popup {
+      position: fixed;
+      bottom: -100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: white;
+      padding: 1rem;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.15);
+      width: 90%;
+      height:100px;
+      max-width: 100%;
+      text-align: center;
+      transition: bottom 0.5s ease;
+    }
+    .popup.show {
+      bottom: 0;
+    }
+    .countdown {
+      color: #e60000;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Video Section */
+    .video-container {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .video-container video {
+      width: 100%;
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+/* ✅ Make all images responsive */
+img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 5%;
+    }
+
+    @keyframes slideIn {
+      to {
+        transform: translateX(0);
+        display: flex;
+      }
+    }
+    @keyframes slideOut {
+      to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+   }
+
+    @keyframes slideIn {
+      to {
+        transform: translateX(0);
+        display: flex;
+      }
+    }
+    @keyframes slideOut {
+      to {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+    }
+    .footer {
+      background-color: #4d004d;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h1>Coach Lillian</h1>
+    <div class="menu-toggle" onclick="toggleDropdown()">☰</div>
+    <div class="dropdown" id="dropdownMenu">
+      <a href="LillianPayment.html">Register</a>
+      <a href="#">Login</a>
+    </div>
+  </div>
+
+  <!--<div class="hero-image">-->
+    <div class="video-container">
+            <div id="sales-commission" class="tab-content active">
+                <video autoplay="" loop="" playsinline="" controls="" muted="" class="appl1-hdvd-xx">
+                    <source src="vidpost.mp4" type="video/mp4"> <!-- Local video file -->
+                    Your browser does not support the video tag.
+                </video>
+                 <!-- Open Register Modal -->
+            </div>
+    </div>
+  <!--</div>-->
+  
+
+  <div class="container">
+    <div class="card">
+        <img src="rd1.png" alt="Money Coach">
+        <div class="product-title">Free Mentorship access for the First 5 People Today is Ongoing</div>
+        <div class="price-section">
+          I share secret earning knowledge in my group, I usually charge a non-refundable upfront fee of 5k to join. 
+            <span class="highlight">But you are among the first five people—you can join the meeting for free and only pay when you're ready to start earning.</span>
+            <br><br>
+            2 people remain to complete the 5 lucky spots. ⬇️💨🚴‍♂️ This promo will end soon. 
+            So act quickly, and stay ahead of your competitors.<span class="highlight">Just Click Submit button</span>
+        </div>
+
+        <div class="details-section">
+            <p><strong>PAY TO THIS ACCOUNT</strong></p>
+            <p><em>(Click any of the details below to copy)</em></p>
+
+            <p onclick="navigator.clipboard.writeText('Ubong Peter Isonguyo')" style="cursor: pointer; color: #4d004d;">
+                ▫️ <strong>Name:</strong> Ubong Peter Isonguyo <button>Click to copy</button>
+            </p>
+          
+            <p onclick="navigator.clipboard.writeText('6067151384')" style="cursor: pointer; color: #4d004d;">
+                ▫️ <strong>Account Number:</strong> 6067151384 <button>Click to copy</button>
+            </p>
+          
+            <p onclick="navigator.clipboard.writeText('Moniepoint MFB')" style="cursor: pointer; color: #4d004d;">
+                ▫️ <strong>Bank Name:</strong> Moniepoint MFB <button>Click to copy</button>
+            </p>
+
+            <p>Immediately after I confirm your payment, you'll be sent your login details, and video tutorials on how to earn, and you'll be added to my mentorship group.</p>
+
+            <p>After making payment, click the button below and fill the form that will show<span class="highlight">(You will be granted access immediately)</span></p>
+
+            <div class="forbtn">
+              <a href="https://wa.me/2347044435672?text=▫️%20F‌u‌l‌l‌%20n‌a‌m‌e‌:%0A▫️%20W‌h‌a‌t‌s‌a‌p‌p‌%20n‌u‌m‌b‌e‌r‌:%0A▫️%20E‌m‌a‌i‌l‌:%0A▫️%20P‌r‌e‌f‌e‌r‌r‌e‌d‌%20U‌s‌e‌r‌n‌a‌m‌e‌:%0A%0AI%20have%20paid%20to%20get%20access%20to%20your%20Mentorship%20Assembly.%20My%20details%20are%20shown%20above%2C%20and%20I%20will%20upload%20the%20proof%20of%20payment%20now.
+"><button class="submit-btn">Submit <span class="green">Now</span></button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+    
+
+   <div class="card review-section">
+      <h2>Customer Reviews</h2>
+      <div class="review-score" id="score">2.00</div>
+      <div class="stars" id="stars">★★☆☆☆</div>
+    </div>
+
+    <div class="chat-popup-container">
+      <div class="chat-popup" id="chat">
+        <img src="https://via.placeholder.com/40" alt="User Profile">
+        <span id="chat-message">Hello</span>
+      </div>
+    </div>
+
+ <!-- <div class="card">
+        <div class="chat-popup-container">
+      <div class="chat-popup" id="chat">
+        <img src="capcut-box5.jpg" alt="User Profile">
+        <span id="chat-message">Hello</span>
+      </div>
+    </div>
+            <div class="forbtn">
+              <p>Don’t miss my ongoing class. Click the “Join Now” button below to join, learn, and earn.</p>
+            <a href="index.html"><button class="submit-btn">Join <span class="green">Now</span></button></a>
+            </div>
+    </div>-->
+
+    <!--<div class="card">
+        <img src="capcut-box5.jpg" alt="CapCut Pro Box" >
+            <div class="product-title">CapCut Pro - PC + ANDROID + iOS</div>
+        <div class="price-section">
+            CFA 2,213.28
+            <br>
+            <button class="closed-btn">Product sale closed</button>
+          </div>
+    
+          <div class="details-section">
+            <p><strong>DON’T SUBSCRIBE YOUR CAPCUT APP FOR THE NEXT 12 MONTHS. HERE IS A JUICIER FIX!</strong></p>
+            <p>Quit annoying lags, crashes or monthly pricey subscriptions for the next 12 months on your Capcut app</p>
+            <p>Choose peace of mind and take control of your content journey with <span class="highlight"> CAPCUT PRO MEMBERSHIP</span> for just ₦5,000 instead of ₦9,800 that Capcut charges you per month.</p>
+    
+            <p class="disclaimer">DISCLAIMER: This is not a MOD version ❌ And yes, it’s Android, iOS and PC Supported!</p>
+    
+            <p>Slots are very limited, available for only the next 50 lucky persons 🔥</p>
+            <p>I bet, You don’t want to hear, “last spot has been taken” 😩</p>
+    
+            <div class="forbtn">
+              <p>Don’t miss my ongoing class. Click the “Join Now” button below to join, learn, and earn.</p>
+            <a href="index.html"><button class="submit-btn">Join <span class="green">Now</span></button></a>
+            </div>
+            
+          </div>
+    </div>
+
+    
+
+    
+
+    <div class="card review-section">
+      <h2>Customer Reviews</h2>
+      <div class="review-score" id="score">2.00</div>
+      <div class="stars" id="stars">★★☆☆☆</div>
+    </div>
+
+    <div class="chat-popup-container">
+      <div class="chat-popup" id="chat">
+        <img src="https://via.placeholder.com/40" alt="User Profile">
+        <span id="chat-message">Hello</span>
+      </div>
+    </div>
+
+    <h1>TESTIMONIES BY MEMBERS</h1>
+
+    <div class="card">
+        
+            <img src="capcut-box1.jpg" alt="CapCut Pro Box" >
+            <div class="product-title">CapCut Pro - PC + ANDROID + iOS</div>
+       
+        <div class="price-section">
+            CFA 2,213.28
+            <br>
+            <button class="closed-btn">Product sale closed</button>
+          </div>
+    
+          <div class="details-section">
+            <img src="capcut-box6.jpg" alt="CapCut Pro Box" >
+            <div class="product-title">CapCut Pro - PC + ANDROID + iOS</div>
+            <p><strong>DON’T SUBSCRIBE YOUR CAPCUT APP FOR THE NEXT 12 MONTHS. HERE IS A JUICIER FIX!</strong></p>
+            <p>Quit annoying lags, crashes or monthly pricey subscriptions for the next 12 months on your Capcut app</p>
+            <p>Choose peace of mind and take control of your content journey with <span class="highlight">CAPCUT PRO MEMBERSHIP</span> for just ₦5,000 instead of ₦9,800 that Capcut charges you per month.</p>
+    
+            <p class="disclaimer">DISCLAIMER: This is not a MOD version ❌ And yes, it’s Android, iOS and PC Supported!</p>
+    
+            <p>Slots are very limited, available for only the next 50 lucky persons 🔥</p>
+            <p>I bet, You don’t want to hear, “last spot has been taken” 😩</p>
+             <img src="capcut-box7.jpg" alt="CapCut Pro Box" >
+            <div class="product-title">CapCut Pro - PC + ANDROID + iOS</div>
+            <div class="forbtn">
+              <p>Don’t miss my ongoing class. Click the “Join Now” button below to join, learn, and earn.</p>
+            <a href="index.html"><button class="submit-btn">Join <span class="green">Now</span></button></a>
+            </div>
+          </div>
+    </div>
+
+    <div class="card">
+        
+            <img src="capcut-box3.jpg" alt="CapCut Pro Box">
+            <div class="product-title">CapCut Pro - PC + ANDROID + iOS</div>
+          
+        <div class="price-section">
+            CFA 2,213.28
+            <br>
+            <button class="closed-btn">Product sale closed</button>
+          </div>
+    
+          <div class="details-section">
+            <img src="capcut-box2.jpg" alt="CapCut Pro Box" >
+            <div class="product-title">CapCut Pro - PC + ANDROID + iOS</div>
+            <p><strong>DON’T SUBSCRIBE YOUR CAPCUT APP FOR THE NEXT 12 MONTHS. HERE IS A JUICIER FIX!</strong></p>
+            <p>Quit annoying lags, crashes or monthly pricey subscriptions for the next 12 months on your Capcut app</p>
+            <p>Choose peace of mind and take control of your content journey with <span class="highlight">CAPCUT PRO MEMBERSHIP</span> for just ₦5,000 instead of ₦9,800 that Capcut charges you per month.</p>
+    
+            <p class="disclaimer">DISCLAIMER: This is not a MOD version ❌ And yes, it’s Android, iOS and PC Supported!</p>
+    
+            <p>Slots are very limited, available for only the next 50 lucky persons 🔥</p>
+            <p>I bet, You don’t want to hear, “last spot has been taken” 😩</p>
+    
+            <p>Order now on Whatsapp via the link below:</p>
+             <img src="capcut-box4.jpg" alt="CapCut Pro Box" >
+            <div class="forbtn">
+              <p>Don’t miss my ongoing class. Click the “Join Now” button below to join, learn, and earn.</p>
+            <a href="index.html"><button class="submit-btn">Join <span class="green">Now</span></button></a>
+            </div>
+          </div>
+    </div>
+
+    <div class="card">
+            <img src="capcut-box6.jpg" alt="CapCut Pro Box" >
+            <div class="product-title">CapCut Pro - PC + ANDROID + iOS</div>
+        <div class="price-section">
+            CFA 2,213.28
+            <br>
+            <button class="closed-btn">Product sale closed</button>
+          </div>
+    
+          <div class="details-section">
+            <img src="capcut-box8.jpg" alt="CapCut Pro Box" >
+            <div class="product-title">CapCut Pro - PC + ANDROID + iOS</div>
+            <p><strong>DON’T SUBSCRIBE YOUR CAPCUT APP FOR THE NEXT 12 MONTHS. HERE IS A JUICIER FIX!</strong></p>
+            <p>Quit annoying lags, crashes or monthly pricey subscriptions for the next 12 months on your Capcut app</p>
+            <p>Choose peace of mind and take control of your content journey with <span class="highlight">CAPCUT PRO MEMBERSHIP</span> for just ₦5,000 instead of ₦9,800 that Capcut charges you per month.</p>
+    
+            <p class="disclaimer">DISCLAIMER: This is not a MOD version ❌ And yes, it’s Android, iOS and PC Supported!</p>
+    
+            <p>Slots are very limited, available for only the next 50 lucky persons 🔥</p>
+            <p>I bet, You don’t want to hear, “last spot has been taken” 😩</p>
+             <img src="capcut-box5.jpg" alt="CapCut Pro Box" >
+            <div class="product-title">CapCut Pro - PC + ANDROID + iOS</div>
+            <div class="forbtn">
+              <p>Don’t miss my ongoing class. Click the “Join Now” button below to join, learn, and earn.</p>
+            <a href="index.html"><button class="submit-btn">Join <span class="green">Now</span></button></a>
+            </div>
+          </div>-->
+    </div>
+  </div>
+
+<!--<div class="hero-image">-->
+    <div class="video-container">
+            <div id="sales-commission" class="tab-content active">
+                <video autoplay="" loop="" playsinline="" controls="" muted="" class="appl1-hdvd-xx">
+                    <source src="vidpost.mp4" type="video/mp4"> <!-- Local video file -->
+                    Your browser does not support the video tag.
+                </video>
+                 <!-- Open Register Modal -->
+            </div>
+    </div>
+  <!--</div>-->
+ 
+ 
+
+
+
+
+  <!--footer popup-->
+  <div class="popup" id="popup">
+    <p>Payment details will expire soon<span class="countdown" id="countdown">00:100</span></p>
+    <a href="https://wa.me/2347044435672?text=▫️%20F‌u‌l‌l‌%20n‌a‌m‌e‌:%0A▫️%20W‌h‌a‌t‌s‌a‌p‌p‌%20n‌u‌m‌b‌e‌r‌:%0A▫️%20E‌m‌a‌i‌l‌:%0A▫️%20P‌r‌e‌f‌e‌r‌r‌e‌d‌%20U‌s‌e‌r‌n‌a‌m‌e‌:%0A%0AI%20"><button class="submit-btn">If you can't pay in Naira <span class="green">(CLICK HERE)</span></button></a>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 MS LILLIAN. All Rights Reserved.
+  </div>
+
+  <script>
+    function toggleDropdown() {
+      const menu = document.getElementById('dropdownMenu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+
+    // Animate review score from 2 to 5
+    let reviewScore = 2;
+    let interval = setInterval(() => {
+      if (reviewScore < 5) {
+        reviewScore++;
+        document.getElementById("score").textContent = reviewScore.toFixed(2);
+        document.getElementById("stars").textContent = '★'.repeat(reviewScore) + '☆'.repeat(5 - reviewScore);
+      } else {
+        clearInterval(interval);
+      }
+    }, 4000);
+
+    // Rotating chat popups
+    const messages = [
+      "I just Registered successfully, thank you!",
+      "Wow, I just earned my first 300k. God bless you!",
+      "You are a very good Mentor. Keep it up."
+    ];
+    let index = 0;
+    const chat = document.getElementById('chat');
+    const messageEl = document.getElementById('chat-message');
+
+    function showNextChat() {
+      chat.classList.remove('slide-out');
+      chat.style.display = 'flex';
+      messageEl.textContent = messages[index];
+      setTimeout(() => {
+        chat.classList.add('slide-out');
+        setTimeout(() => {
+          chat.style.display = 'none';
+          index = (index + 1) % messages.length;
+        }, 500);
+      }, 4000);
+    }
+    showNextChat();
+    setInterval(showNextChat, 8000);
+
+    //Footer popup
+    window.onload = function () {
+      setTimeout(() => {
+        document.getElementById('popup').classList.add('show');
+        startCountdown(1000);
+      }, 1000);
+    };
+
+    function startCountdown(seconds) {
+      const countdownEl = document.getElementById("countdown");
+      let counter = seconds;
+      const interval = setInterval(() => {
+        countdownEl.textContent = `00:${counter < 10 ? '0' + counter : counter}`;
+        counter--;
+        if (counter < 0) clearInterval(interval);
+      }, 1000);
+    }
+  </script>
+</body>
+</html>
